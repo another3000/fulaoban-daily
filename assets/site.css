@@ -19,7 +19,7 @@
   --font-sans: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   --wrap: 1240px;
   --rail: 340px;
-  --article: 760px;
+  --article: 960px;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -281,10 +281,31 @@ a:hover { color: #fff; }
   width: min(var(--article), calc(100% - 48px)); margin: 0 auto;
 }
 /* Widen email-table newspaper body for desktop reading */
+body.lesson-page .lesson-paper {
+  width: min(var(--article), calc(100% - 48px));
+}
+body.lesson-page .lesson-paper > table[role="presentation"] {
+  width: 100% !important;
+  max-width: var(--article) !important;
+  padding: 28px 16px !important;
+}
 body.lesson-page .lesson-paper table[role="presentation"][width="600"],
-body.lesson-page .lesson-paper table[width="600"] {
-  width: min(760px, 100%) !important;
-  max-width: 760px !important;
+body.lesson-page .lesson-paper table[width="600"],
+body.lesson-page .lesson-paper table[style*="max-width:600px"],
+body.lesson-page .lesson-paper table[style*="max-width: 600px"] {
+  width: 100% !important;
+  max-width: var(--article) !important;
+}
+body.lesson-page .lesson-paper td {
+  font-size: inherit;
+}
+/* Slightly airier newspaper body on wide screens */
+@media (min-width: 961px) {
+  body.lesson-page .lesson-paper table[role="presentation"][width="600"] td,
+  body.lesson-page .lesson-paper table[width="600"] td {
+    /* keep inline sizes; outer column carries the widen */
+  }
+  body.lesson-page .lesson-shell { padding: 36px 0 72px; }
 }
 
 /* ========== Breakpoints: tablet stacks; phone readable ========== */
@@ -348,8 +369,11 @@ body.lesson-page .lesson-paper table[width="600"] {
   .lesson-chrome-inner,
   .lesson-paper { width: calc(100% - 24px); }
   .lesson-shell { padding: 16px 0 40px; }
+  body.lesson-page .lesson-paper > table[role="presentation"],
   body.lesson-page .lesson-paper table[role="presentation"][width="600"],
-  body.lesson-page .lesson-paper table[width="600"] {
+  body.lesson-page .lesson-paper table[width="600"],
+  body.lesson-page .lesson-paper table[style*="max-width:600px"],
+  body.lesson-page .lesson-paper table[style*="max-width: 600px"] {
     width: 100% !important;
     max-width: 100% !important;
   }
