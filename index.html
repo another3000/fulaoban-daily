@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>亿万富翁导师 · WEALTH MENTOR</title>
+<meta name="description" content="富老板一课日报 · 报价、决策链、止损与回款的每日硬课">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <div class="brand">
+      <p class="brand-kicker">WEALTH MENTOR DAILY</p>
+      <h1 class="brand-title">亿万富翁导师 · WEALTH MENTOR</h1>
+      <p class="brand-sub">把十来人厂，练成能卖贵、能回款的富老板</p>
+    </div>
+    <div class="header-meta">
+      <strong>Asia/Shanghai</strong>
+      每日一课 · 固定链接打开即可
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-badge">★ PRIVATE MENTORING ARCHIVE</div>
+    <h1>打开日历，<span>看见财富节律</span></h1>
+    <p class="hero-lead">
+      这里不是鸡汤专栏，是作战纸存档。按「富老板」分组收藏每日一课——点日历进当日全文，点列表按课次复盘。
+      新组以后可继续加；今天先把报价与回款的骨头啃硬。
+    </p>
+    <div class="hero-stats">
+      <div class="stat"><b id="stat-lessons">—</b><span>已发布课次</span></div>
+      <div class="stat"><b id="stat-groups">—</b><span>内容分组</span></div>
+      <div class="stat"><b id="stat-latest">—</b><span>最近更新日期</span></div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <div class="group-tabs" id="group-tabs" aria-label="内容分组"></div>
+    <div class="view-toggle" role="group" aria-label="视图切换">
+      <button type="button" class="view-btn active" data-view="both">日历 + 列表</button>
+      <button type="button" class="view-btn" data-view="calendar">仅日历</button>
+      <button type="button" class="view-btn" data-view="list">仅列表</button>
+    </div>
+  </div>
+
+  <section class="panel" id="calendar-panel">
+    <div class="panel-title">财富日历 <small>有金点的日子可点进全文</small></div>
+    <div class="cal-nav">
+      <button type="button" id="cal-prev" aria-label="上一月">‹</button>
+      <h3 id="cal-label">—</h3>
+      <button type="button" id="cal-next" aria-label="下一月">›</button>
+    </div>
+    <div class="cal-grid" id="cal-grid"></div>
+  </section>
+
+  <section class="panel" id="list-panel">
+    <div class="panel-title">课次列表 <small>按日期倒序</small></div>
+    <div class="article-list" id="article-list"></div>
+  </section>
+
+  <footer class="site-footer">
+    <div>© WEALTH MENTOR · 富老板一课</div>
+    <div>纯静态 GitHub Pages · 数据源 content/manifest.json</div>
+  </footer>
+</main>
+<script src="assets/site.js"></script>
+</body>
+</html>

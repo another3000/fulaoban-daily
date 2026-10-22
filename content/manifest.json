@@ -1,0 +1,61 @@
+{
+  "site": {
+    "title": "亿万富翁导师 · WEALTH MENTOR",
+    "brand": "WEALTH MENTOR DAILY",
+    "timezone": "Asia/Shanghai"
+  },
+  "groups": [
+    {
+      "id": "fulaoban",
+      "name": "富老板",
+      "slug": "fulaoban",
+      "description": "每日富老板一课：定位、报价、止损、回款"
+    }
+  ],
+  "posts": [
+    {
+      "id": "fulaoban-2026-10-19",
+      "date": "2026-10-19",
+      "title": "富老板一课 · 10/19｜谁能批预算，谁才是真买家",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-19.html",
+      "lesson": 2,
+      "vol": "VOL.01 NO.02",
+      "blurb": "结果包写得再漂亮，约错人等于白送咨询。画出拍板 / 影响 / 付款三条线——热情不等于预算。"
+    },
+    {
+      "id": "fulaoban-2026-10-20",
+      "date": "2026-10-20",
+      "title": "富老板一课 · 10/20｜报价锚点：三档菜单先抬价",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-20.html",
+      "lesson": 3,
+      "vol": "VOL.01 NO.03",
+      "blurb": "先定锚，再谈让。用 Good-Better-Best 三档菜单，让客户选档而不是砍价。"
+    },
+    {
+      "id": "fulaoban-2026-10-21",
+      "date": "2026-10-21",
+      "title": "富老板一课 · 10/21｜止损线与让步阶梯",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-21.html",
+      "lesson": 4,
+      "vol": "VOL.01 NO.04",
+      "blurb": "没有止损线的报价是乞讨。预先排好让步顺序与交换物，标价动刀永远排最后。"
+    },
+    {
+      "id": "fulaoban-2026-10-22",
+      "date": "2026-10-22",
+      "title": "富老板一课 · 10/22｜预付与里程碑：先收钱再开工",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-22.html",
+      "lesson": 5,
+      "vol": "VOL.01 NO.05",
+      "blurb": "谁先开工谁就在借钱给医院。里程碑把交付风险按节点卖回去，没进账不动编制。"
+    }
+  ]
+}
