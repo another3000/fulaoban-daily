@@ -56,6 +56,18 @@
       "lesson": 5,
       "vol": "VOL.01 NO.05",
       "blurb": "谁先开工谁就在借钱给医院。里程碑把风险按节点卖回去；厚黑段教你用人情换走款、不换垫资。"
+    },
+    {
+      "id": "fulaoban-2026-10-23",
+      "date": "2026-10-23",
+      "title": "富老板一课 · 10/23｜周五作业体检：标准档作战纸合订催交",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-23.html",
+      "lesson": 6,
+      "vol": "VOL.01 NO.06",
+      "blurb": "不硬开新理论。五项空格合订成一页作战纸；没交就别进第2周。",
+      "homework": "pending"
     }
   ]
 }
