@@ -68,6 +68,18 @@
       "vol": "VOL.01 NO.06",
       "blurb": "不硬开新理论。五项空格合订成一页作战纸；没交就别进第2周。",
       "homework": "pending"
+    },
+    {
+      "id": "fulaoban-2026-10-26",
+      "date": "2026-10-26",
+      "title": "富老板一课 · 10/26｜作战纸上场排练：三分钟说清标准档",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-26.html",
+      "lesson": 7,
+      "vol": "VOL.01 NO.07",
+      "blurb": "合订纸推进到三分钟上场：Offer Narrative 排练逼空格；厚黑挡「别演了」；homework 仍 pending。",
+      "homework": "pending"
     }
   ]
 }
