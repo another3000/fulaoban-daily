@@ -104,6 +104,42 @@
       "vol": "VOL.01 NO.09",
       "blurb": "把前8课编成可打印一页、会上可通读的标准档作战纸；厚黑递法；外送回传对账风暴A/B/C；homework pending。",
       "homework": "pending"
+    },
+    {
+      "id": "fulaoban-2026-10-29",
+      "date": "2026-10-29",
+      "title": "富老板一课 · 10/29｜证据包：让一页纸敢被转发",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-29.html",
+      "lesson": 10,
+      "vol": "VOL.01 NO.10",
+      "blurb": "给一页作战纸挂薄证据索引（演示/验收/不含/触发样例）；厚黑把「做过几家」译成「怎么保证」；周四钩子；homework pending。",
+      "homework": "pending"
+    },
+    {
+      "id": "fulaoban-2026-10-30",
+      "date": "2026-10-30",
+      "title": "富老板一课 · 10/30｜周五作业体检：上场前红灯表",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-10-30.html",
+      "lesson": 11,
+      "vol": "VOL.01 NO.11",
+      "blurb": "不硬开新理论。七格红灯表逼最低可上场半成品；厚黑半成品挡周末口头局；homework pending。",
+      "homework": "pending"
+    },
+    {
+      "id": "fulaoban-2026-11-02",
+      "date": "2026-11-02",
+      "title": "富老板一课 · 11/2｜出场门槛：作战纸什么叫「能关门」",
+      "group": "富老板",
+      "group_slug": "fulaoban",
+      "path": "posts/fulaoban/2026-11-02.html",
+      "lesson": 12,
+      "vol": "VOL.01 NO.12",
+      "blurb": "标准档作战纸出场门槛DoD：七格黄灯齐才许对外报价进院会；厚黑把先报价译成省返工；县域互认材料打包风暴A/B/C；homework pending。",
+      "homework": "pending"
     }
   ]
 }
